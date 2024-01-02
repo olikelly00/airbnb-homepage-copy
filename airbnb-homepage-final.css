@@ -221,3 +221,10 @@
     color: #717171;
     font-weight: 300;
 }
+
+.header {
+    background-color: #7171714f;
+    width:100%;
+    height: 1px;
+    border: none;
+}
