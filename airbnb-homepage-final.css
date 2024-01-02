@@ -14,6 +14,12 @@
      margin-top: -10px;
  }
 
+ .header {
+    background-color: #7171714f;
+    width:100%;
+    height: 1px;
+    border: none;
+}
 
 .section1-and-section2-container {
     background-color: #fff;
@@ -24,8 +30,6 @@
     border-bottom: 1px solid rgb(233, 230, 230);
     box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.1);
 }
-
-
 
  #section1-searchbutton {
     text-align: center;
@@ -156,6 +160,10 @@
     text-align: left; 
 }
 
+.section6 ul li, .section7 ul li, .section8 ul li {
+    line-height: 1.75;
+}
+
 .section5-location-menu {
     display: grid;
     column-gap: 40px;
@@ -232,14 +240,6 @@
 }
 
 
-.header {
-    background-color: #7171714f;
-    width:100%;
-    height: 1px;
-    border: none;
-}
-
-
 .section-menu-container h5 {
     font-weight: 600;
     font-size: 14px;
@@ -278,9 +278,11 @@
 .quick-links {
     width: 100%;
     padding-bottom: 20px;
+    margin-top: 25%;
     background-color: #fff;
     position:fixed;
 }
+
 
 .quick-links h5 {
     background-color: #f7f7f7;
