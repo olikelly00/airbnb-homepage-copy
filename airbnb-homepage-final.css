@@ -222,9 +222,35 @@
     font-weight: 300;
 }
 
+
+#show-more-arrow {
+    font-size: 18px;
+    font-weight: 800;
+    position:relative;
+    right: -4px;
+    top:-4px;
+}
+
+
 .header {
     background-color: #7171714f;
     width:100%;
     height: 1px;
     border: none;
+}
+
+
+.section-menu-container h5 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section-menu-container ul li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #222222
+
 }
